@@ -3,14 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */
-    -webkit-border-radius-top-left: $1; /* pre-Safari 5, delete unused */
-   -webkit-border-radius-top-right: $2;
--webkit-border-radius-bottom-right: $3;
- -webkit-border-radius-bottom-left: $4;
-                -moz-border-radius: $1 $2 $3 $4;
-                     border-radius: ${1:6px} ${2:6px} ${3:6px} ${4:6px};
-</string>
+	<string>border-radius: ${1:24px} ${2:1em} ${3:0} ${4:1em};${5:/* TL TR BR BL */}
+${6:-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */}</string>
 	<key>name</key>
 	<string>border-radius individual corners</string>
 	<key>scope</key>

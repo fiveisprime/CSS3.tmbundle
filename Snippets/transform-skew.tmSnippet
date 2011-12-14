@@ -7,7 +7,7 @@
    -moz-transform: skew$1($2);
     -ms-transform: skew$1($2);
      -o-transform: skew$1($2);
-        transform: skew${1:X/Y}(${2:9deg});
+        transform: skew${1:X/Y}(${2:9deg});${3: /* (deg|rad|grad|turn) */}
 </string>
 	<key>name</key>
 	<string>transform:skew</string>

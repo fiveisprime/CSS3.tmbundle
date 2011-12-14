@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform-origin: $1 $2;
-   -moz-transform-origin: $1 $2;
-    -ms-transform-origin: $1 $2;
-     -o-transform-origin: $1 $2;
-        transform-origin: ${1:50%} ${2:100%};
+	<string>-webkit-transform-origin: $1 $2 $3;
+   -moz-transform-origin: $1 $2 $3;
+    -ms-transform-origin: $1 $2 $3;
+     -o-transform-origin: $1 $2 $3;
+        transform-origin: ${1:50%} ${2:100%}${3: 50px};${4: /* X,Y:(keywords|length|%) Z:(length) */}
 </string>
 	<key>name</key>
-	<string>transform:origin</string>
+	<string>transform-origin</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>

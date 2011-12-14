@@ -7,7 +7,7 @@
    -moz-transform: translate$1($2);
     -ms-transform: translate$1($2);
      -o-transform: translate$1($2);
-        transform: translate${1:X/Y}(${2:24px});
+        transform: translate${1:X/Y/Z/3D}(${2:24px});${3: /* (length|%(!tZ)) */}
 </string>
 	<key>name</key>
 	<string>transform:translate</string>

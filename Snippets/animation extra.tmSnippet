@@ -6,7 +6,7 @@
 	<string>-webkit-animation$1: $2;
    -moz-animation$1: $2;
     -ms-animation${1:-}: ${2};${3: /* name duration timing-function delay iteration-count direction fill-mode play-state */}
-$0</string>
+</string>
 	<key>name</key>
 	<string>animation extra</string>
 	<key>scope</key>

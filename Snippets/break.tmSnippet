@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-column-break-$1: $2;
+          -moz-break-$1: $2;
+               break-${1:before}: ${2:always};${3: /* before|after|inside auto*|column|page|always|avoid-column|avoid-page|avoid */}
+</string>
+	<key>name</key>
+	<string>break</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>column</string>
+	<key>uuid</key>
+	<string>674AB6A2-A89E-44D9-9DDF-881ACD6B92CC</string>
+</dict>
+</plist>

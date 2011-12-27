@@ -6,7 +6,7 @@
 	<string>-webkit-backface-visibility: $1;
    -moz-backface-visibility: $1;
     -ms-backface-visibility: $1;
-        backface-visibility: ${1:hidden};${2: /* visible/hidden */}
+        backface-visibility: ${1:hidden};${2: /* visible|hidden */}
 </string>
 	<key>name</key>
 	<string>backface-visibility</string>

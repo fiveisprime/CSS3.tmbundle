@@ -3,10 +3,11 @@ CSS3 Bundle for TextMate
 
 Adds proper syntax highlighting for new CSS3 properties and values, i.e. transitions, transforms, animations, HSLa color values, border-radius, text-shadow, box-shadow, etc.
 
-Includes convenient snippets for vendor-specific properties. For example, _-transition_ [TAB] generates:
+Includes convenient snippets for vendor-specific properties. For example, typing _transition_ then pressing the tab key (⇥) generates:
 
     -webkit-transition: ;
        -moz-transition: ;
+        -ms-transition: ;
          -o-transition: ;
             transition: ;
     

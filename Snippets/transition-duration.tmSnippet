@@ -7,7 +7,7 @@
    -moz-transition-duration: $1;
     -ms-transition-duration: $1;
      -o-transition-duration: $1;
-        transition-duration: ${1:.4s};${1: /* (time) */}
+        transition-duration: ${1:.4s};${2: /* (time) */}
 </string>
 	<key>name</key>
 	<string>transition-duration</string>

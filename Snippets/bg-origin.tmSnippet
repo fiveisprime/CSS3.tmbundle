@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>hsl(${1:0},${2:100}%,${3:50}%)${4: /* hue(0:red,60:yellow,120:green,180:cyan,240:blue,300:magenta),saturation(0%:monochrome,100%:full),lightness(0%:black,100%:white) */}</string>
+	<string>background-origin: ${1:padding}-box;${2: /* border*|padding|content */}
+</string>
 	<key>name</key>
-	<string>hsl extra</string>
+	<string>bg-origin</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>hsl</string>
+	<string>bg-clip</string>
 	<key>uuid</key>
-	<string>AFDB48C0-B8F2-4D19-B882-99BFDF7FDA5D</string>
+	<string>E4F3AD87-1973-4DF9-9B01-FE631099AAED</string>
 </dict>
 </plist>

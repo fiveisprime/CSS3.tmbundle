@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@-webkit-keyframes ${1:animation-name} {
-  ${2:keyframe {property: value;\}}
+	<string>@-webkit-keyframes $1 {
+  $2
 }
 @-moz-keyframes $1 {
   $2
@@ -12,8 +12,11 @@
 @-ms-keyframes $1 {
   $2
 }
-@keyframes $1 {
+@-o-keyframes $1 {
   $2
+}
+@keyframes ${1:animation-name} {
+  ${2:keyframe {property: value;\}}${3: /* keyframe=from|to|0-100% */}
 }
 </string>
 	<key>name</key>

@@ -5,7 +5,8 @@
 	<key>content</key>
 	<string>-webkit-animation: $1;
    -moz-animation: $1;
-    -ms-animation: ${1};
+    -ms-animation: $1;
+     -o-animation: ${1};
 </string>
 	<key>name</key>
 	<string>animation</string>

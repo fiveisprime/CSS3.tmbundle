@@ -7,7 +7,7 @@
    -moz-transition: $1 $2 $3$4;
     -ms-transition: $1 $2 $3$4;
      -o-transition: $1 $2 $3$4;
-        transition: ${1:color} ${2:400ms} ${3:ease-in}${4: 1s};${5: /* transition-property transition-duration(ms/s) transition-timing-function(ease-out|ease*|linear|ease-in-out|ease-in|cubic-bezier(0.42, 0, 1.0, 1.0)|step-start|step-end|steps(3)|steps(3,start)) transition-delay(+-time) */}
+        transition: ${1:color} ${2:400ms} ${3:ease-in}${4: 1s};${5: /* transition-property transition-duration(ms|s) transition-timing-function(ease-out|ease*|linear|ease-in-out|ease-in|cubic-bezier(0.42,0,1.0,1.0)|step-start|step-end|steps(3)|steps(3,start)) transition-delay(+-s|ms) */}
 </string>
 	<key>name</key>
 	<string>transition extra</string>

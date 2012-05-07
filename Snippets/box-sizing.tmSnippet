@@ -3,14 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>hsl(${1:0},${2:100}%,${3:50}%)${4: /* hue(0:red,60:yellow,120:green,180:cyan,240:blue,300:magenta),saturation(0%:monochrome,100%:full),lightness(0%:black,100%:white) */}</string>
+	<string>-webkit-box-sizing: $1;
+   -moz-box-sizing: $1;
+        box-sizing: ${1:border-box};${2: /* content-box*|border-box */}
+</string>
 	<key>name</key>
-	<string>hsl extra</string>
+	<string>box-sizing</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>hsl</string>
+	<string>box-sizing</string>
 	<key>uuid</key>
-	<string>AFDB48C0-B8F2-4D19-B882-99BFDF7FDA5D</string>
+	<string>1EB4FE3A-269F-4FF1-AF8E-3E3E4A70F318</string>
 </dict>
 </plist>

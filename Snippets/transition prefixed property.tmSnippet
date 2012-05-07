@@ -3,14 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>hsl(${1:0},${2:100}%,${3:50}%)${4: /* hue(0:red,60:yellow,120:green,180:cyan,240:blue,300:magenta),saturation(0%:monochrome,100%:full),lightness(0%:black,100%:white) */}</string>
+	<string>-webkit-transition: -webkit-$1;
+   -moz-transition:    -moz-$1;
+    -ms-transition:     -ms-$1;
+     -o-transition:      -o-$1;
+        transition:         ${1};
+</string>
 	<key>name</key>
-	<string>hsl extra</string>
+	<string>transition prefixed property</string>
 	<key>scope</key>
 	<string>source.css</string>
 	<key>tabTrigger</key>
-	<string>hsl</string>
+	<string>transition</string>
 	<key>uuid</key>
-	<string>AFDB48C0-B8F2-4D19-B882-99BFDF7FDA5D</string>
+	<string>057CA9AA-B858-4767-ADB2-D9822805B885</string>
 </dict>
 </plist>

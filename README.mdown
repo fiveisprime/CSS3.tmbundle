@@ -1,45 +1,13 @@
-CSS3 Bundle for TextMate 1
-==========================
+CSS3 Bundle for TextMate
+========================
 
 Adds proper syntax highlighting for new CSS3 properties and values, such as transitions, transforms, and animations.
 
-Includes convenient snippets for vendor-specific properties. For example, typing _transition_ then pressing the tab key (⇥) generates:
-
-    -webkit-transition: ;
-       -moz-transition: ;
-        -ms-transition: ;
-         -o-transition: ;
-            transition: ;
+Includes zero vendor specific prefixes. This is a pure CSS3 bundle - check out
+[Oli's fork](https://github.com/desandro/CSS3.tmbundle) for a bundle that
+includes the vendor prefixes.
 
 This bundle is a fork of Dave [@Desandro](https://twitter.com/desandro)’s [CSS3.tmbundle](https://github.com/desandro/CSS3.tmbundle). All credit goes to him, any mistakes are mine ;-)
-
-Tab triggers
-------------
-
-* `border-radius`
-* lingrad = `background-image` linear gradient
-* bg-clip = `background-clip`
-* bg-origin = `background-origin`
-* `box-shadow`
-* `box-sizing`
-* `transform` = shorthand and individual properties (`transform-*`), plus `backface-visibility`, `perspective`, and `perspective-origin`
-* `transition` = shorthand, prefixed values, and individual properties (`transition-*`)
-* `animation`
-* `@keyframes`
-* column (a.k.a. multicol) = `column-*` plus `columns` shorthand and `break`
-* hsl and hsla
-
-Several snippets have “extra” versions, with extra information about expected values and optional values.
-
-Browser support
----------------
-
-Currently vendor prefix support in these snippets goes back to ~2009 (Safari 4+, Firefox 3.6+). For browser support and use information, refer to:
-
-* [When can I use…](http://caniuse.com/)
-* [HTML5 Please CSS info](http://html5please.com/#css)
-* [Mozilla Developer Network](https://developer.mozilla.org/en/CSS/CSS_Reference)
-* [CSS Coloratum](http://css.coloratum.com/) (for color conversion)
 
 Install
 -------
@@ -48,40 +16,18 @@ The quickest way to install the bundle is via the command line. If you have Git 
 
 ### Install with Git
 
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+    mkdir -p ~/Library/Application\ Support/TextMate/Managed/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/oli/CSS3.tmbundle.git "CSS3.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
-
-### Install without Git:
-
-    mkdir -p ~/Library/Application\ Support/TextMate/Bundles
-    cd ~/Library/Application\ Support/TextMate/Bundles
-    wget http://github.com/oli/CSS3.tmbundle/tarball/master
-    tar zxf oli-CSS3.tmbundle*.tar.gz
-    rm oli-CSS3.tmbundle*.tar.gz
-    mv oli-CSS3.tmbundle* "CSS3.tmbundle"
-    osascript -e 'tell app "TextMate" to reload bundles'
+    git clone git://github.com/fiveisprime/CSS3.tmbundle.git "CSS3.tmbundle"
 
 ### Install with download
 
 If you'd like to avoid the command line altogether, you can download the bundle and install it:
 
-1. Download the zip from [http://github.com/oli/CSS3.tmbundle/zipball/master](http://github.com/oli/CSS3.tmbundle/zipball/master)
+1. Download the zip from [http://github.com/fiveisprime/CSS3.tmbundle/zipball/master](http://github.com/fiveisprime/CSS3.tmbundle/zipball/master)
 2. Find the zip file on your local machine and double-click to unzip it
-3. Change the file name from *oli-CSS3.tmbundle-really_long_alpha_numeric_sequence* to *CSS3.tmbundle*
+3. Change the file name from *fiveisprime-CSS3.tmbundle-really_long_alpha_numeric_sequence* to *CSS3.tmbundle*
 4. Double-click the *CSS3.tmbundle* file
 5. Open TextMate and select the following menu item: *Bundles > Bundle Editor > Reload Bundles*
 6. Show the Bundle Editor (*Bundles > Bundle Editor > Show Bundle Editor*)
 7. Scroll through the list of bundles to confirm that the bundle has been properly installed
-
-
-Setting as default CSS Bundle
------------------------------
-
-After installing the bundle via the method above, the CSS3 bundle will be available, but the original CSS bundle will remain the default bundle.
-
-Feedback
---------
-
-Ping me on [@boblet](https://twitter.com/boblet).

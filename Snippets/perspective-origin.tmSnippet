@@ -3,11 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-perspective-origin: $1 $2;
-   -moz-perspective-origin: $1 $2;
-    -ms-perspective-origin: $1 $2;
-        perspective-origin: ${1:50%} ${2:100%};${3: /* (keywords|length|%) */}
-</string>
+	<string>perspective-origin: ${1:50%} ${2:100%};${3: /* (keywords|length|%) */}</string>
 	<key>name</key>
 	<string>perspective-origin</string>
 	<key>scope</key>

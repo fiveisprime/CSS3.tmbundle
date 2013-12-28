@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-box-sizing: $1;
-   -moz-box-sizing: $1;
-        box-sizing: ${1:border-box};${2: /* content-box*|border-box */}
-</string>
+	<string>box-sizing: ${1:border-box};${2: /* content-box*|border-box */}</string>
 	<key>name</key>
 	<string>box-sizing</string>
 	<key>scope</key>

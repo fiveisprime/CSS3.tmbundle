@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-column-fill: $1;
-   -moz-column-fill: $1;
-        column-fill: ${1:fill};
-</string>
+	<string>column-fill: ${1:fill};</string>
 	<key>name</key>
 	<string>column-fill</string>
 	<key>scope</key>

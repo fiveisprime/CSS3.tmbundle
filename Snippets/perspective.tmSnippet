@@ -3,11 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-perspective: $1;
-   -moz-perspective: $1;
-    -ms-perspective: $1;
-        perspective: ${1:800px};${2: /* (length) 2000px=normal,1000px=distorted,500px=fish-eye */}
-</string>
+	<string>perspective: ${1:800px};${2: /* (length) 2000px=normal,1000px=distorted,500px=fish-eye */}</string>
 	<key>name</key>
 	<string>perspective</string>
 	<key>scope</key>

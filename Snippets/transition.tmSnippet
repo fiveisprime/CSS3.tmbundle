@@ -3,12 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transition: $1;
-   -moz-transition: $1;
-    -ms-transition: $1;
-     -o-transition: $1;
-        transition: ${1};
-</string>
+	<string>transition: ${1};</string>
 	<key>name</key>
 	<string>transition</string>
 	<key>scope</key>

@@ -3,12 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transition-property: $1;
-   -moz-transition-property: $1;
-    -ms-transition-property: $1;
-     -o-transition-property: $1;
-        transition-property: ${1};${2: /* ref: http://oli.jp/2010/css-animatable-properties/ */}
-</string>
+	<string>transition-property: ${1};${2: /* ref: http://oli.jp/2010/css-animatable-properties/ */}</string>
 	<key>name</key>
 	<string>transition-property</string>
 	<key>scope</key>

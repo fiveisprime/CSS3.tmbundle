@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-columns: $1$2;
-   -moz-columns: $1$2;
-        columns: ${1:2}${2: 15em};${3: /* count width(length|%) */}
-</string>
+	<string>columns: ${1:2}${2: 15em};${3: /* count width(length|%) */}</string>
 	<key>name</key>
 	<string>columns</string>
 	<key>scope</key>

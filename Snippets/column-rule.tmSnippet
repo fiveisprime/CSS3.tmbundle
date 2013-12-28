@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-column-rule: $1;
-   -moz-column-rule: $1;
-        column-rule: ${1:1px solid #999};
-</string>
+	<string>column-rule: ${1:1px solid #999};</string>
 	<key>name</key>
 	<string>column-rule</string>
 	<key>scope</key>

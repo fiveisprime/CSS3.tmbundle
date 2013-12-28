@@ -3,12 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: rotate$1($2);
-   -moz-transform: rotate$1($2);
-    -ms-transform: rotate$1($2);
-     -o-transform: rotate$1($2);
-        transform: rotate${1:X/Y/Z/3D}(${2:7.5deg});${3: /* (deg|rad|grad|turn) */}
-</string>
+	<string>transform: rotate${1:X/Y/Z/3D}(${2:7.5deg});${3: /* (deg|rad|grad|turn) */}</string>
 	<key>name</key>
 	<string>transform:rotate</string>
 	<key>scope</key>

@@ -3,11 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-animation$1: $2;
-   -moz-animation$1: $2;
-    -ms-animation$1: $2;
-     -o-animation${1:-}: ${2};${3: /* name duration timing-function delay iteration-count direction fill-mode play-state */}
-</string>
+	<string>animation${1:-}: ${2};${3: /* name duration timing-function delay iteration-count direction fill-mode play-state */}</string>
 	<key>name</key>
 	<string>animation extra</string>
 	<key>scope</key>

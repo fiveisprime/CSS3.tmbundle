@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-column-gap: $1;
-   -moz-column-gap: $1;
-        column-gap: ${1:3em};${2: /* (length|%) */}
-</string>
+	<string>column-gap: ${1:3em};${2: /* (length|%) */}</string>
 	<key>name</key>
 	<string>column-gap</string>
 	<key>scope</key>

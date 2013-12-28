@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-column-count: $1;
-   -moz-column-count: $1;
-        column-count: ${1:2};
-</string>
+	<string>column-count: ${1:2};</string>
 	<key>name</key>
 	<string>column-count</string>
 	<key>scope</key>

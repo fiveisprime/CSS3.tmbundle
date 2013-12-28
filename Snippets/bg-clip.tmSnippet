@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-clip: ${1:padding}-box;${2: /* border*|padding|content */}
-</string>
+	<string>background-clip: ${1:padding}-box;${2: /* border*|padding|content */}</string>
 	<key>name</key>
 	<string>bg-clip</string>
 	<key>scope</key>

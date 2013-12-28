@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-column-break-$1: $2;
-          -moz-break-$1: $2;
-               break-${1:before}: ${2:always};${3: /* before|after|inside auto*|column|page|always|avoid-column|avoid-page|avoid */}
-</string>
+	<string>break-${1:before}: ${2:always};${3: /* before|after|inside auto*|column|page|always|avoid-column|avoid-page|avoid */}</string>
 	<key>name</key>
 	<string>break</string>
 	<key>scope</key>

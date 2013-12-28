@@ -3,12 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: translate$1($2);
-   -moz-transform: translate$1($2);
-    -ms-transform: translate$1($2);
-     -o-transform: translate$1($2);
-        transform: translate${1:X/Y/Z/3D}(${2:24px});${3: /* (length|%(!tZ)) */}
-</string>
+	<string>transform: translate${1:X/Y/Z/3D}(${2:24px});${3: /* (length|%(!tZ)) */}</string>
 	<key>name</key>
 	<string>transform:translate</string>
 	<key>scope</key>

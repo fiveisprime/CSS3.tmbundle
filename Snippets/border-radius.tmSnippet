@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>border-radius: ${1:10px};
-${2:-webkit-background-clip: padding-box; /* fix WebKit background bleed on border-radius */}</string>
+	<string>border-radius: ${1:10px};</string>
 	<key>name</key>
 	<string>border-radius</string>
 	<key>scope</key>

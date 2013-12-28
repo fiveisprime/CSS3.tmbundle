@@ -3,12 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>-webkit-transform: scale$1($2);
-   -moz-transform: scale$1($2);
-    -ms-transform: scale$1($2);
-     -o-transform: scale$1($2);
-        transform: scale${1:X/Y/Z/3D}(${2:1.5});${3: /* (number) */}
-</string>
+	<string>transform: scale${1:X/Y/Z/3D}(${2:1.5});${3: /* (number) */}</string>
 	<key>name</key>
 	<string>transform:scale</string>
 	<key>scope</key>

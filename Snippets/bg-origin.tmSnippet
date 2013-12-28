@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>background-origin: ${1:padding}-box;${2: /* border*|padding|content */}
-</string>
+	<string>background-origin: ${1:padding}-box;${2: /* border*|padding|content */}</string>
 	<key>name</key>
 	<string>bg-origin</string>
 	<key>scope</key>
